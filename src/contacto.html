@@ -7,6 +7,41 @@
   <title>Contacto</title>
 </head>
 <body>
-  
+  <header></header>
+  <main>
+    <h1>Escríbenos</h1>
+      <form action="mailto:###" method="post" enctype="text/plain">  <!-- hay que agregarle un mail -->
+        <label for="name">Nombre: </label>
+        <input type="text" id:"name" name="name" placeholder="Ingresa tu nombre..." required>
+        <br>
+        <br>
+        <label for="surname">Apellido: </label>
+        <input type="text" id:"surname" name="surname" placeholder="Ingresa tu apellido..." required>
+        <br>
+        <br>
+        <label for="age">Seleccione su rango de edad: </label>
+        <select name="age" id="age_range" required>
+            <option disabled selected value> -- Selecciona una opción -- </option>
+            <option value=1>18 a 30</option>
+            <option value=2>31 a 40</option>
+            <option value=3>41 a 50</option>
+            <option value=4>51 a 60</option>
+            <option value=5>61 a 70</option>
+            <option value=6>más de 70</option>
+        </select>
+        <br>
+        <br>
+        <label for="mail">Correo electrónico: </label>
+        <input type="get" name="mail" placeholder="ex: juanperez@gmail.com" required>
+        <br>
+        <br>
+        <p>Comentarios</p>
+        <textarea name="comments" rows="10" cols="40" placeholder="Escribe tu comentario..." required></textarea>
+        <br>
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="BORRAR">
+    </form>
+  </main>
+  <footer></footer>
 </body>
 </html>
