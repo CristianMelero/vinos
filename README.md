@@ -11,3 +11,5 @@ Página web de e-commerce de vinos - Cristian, Julieta y Ramiro
     Catas
 
     Contacto
+
+OJO CON BOOTSTRAP, CREO QUE PODEMOS USARLO SOLO PARA LOS FORMULARIOS.
