@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+html {
+    font-size: 1rem;
+    height: 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    min-height: 100px;
+    margin: 0;
+    padding: 0.5rem 3rem;
+    background-color: #60674dff;
+}
+
+.header-logo {
+    border: 2px blue solid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.header-title {
+    font-size: 4rem;
+    border: 2px red solid;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 11;
+} 
+
+.header-navbar ul{
+    list-style: none;
+    border: purple solid;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 11;
+
+}
+
+.header-navbar li{
+    font-weight: 700;
+    margin: 0 0.5rem 0;
+    font-size: 1.5rem;
+    display: inline;
+}
+
+/* PALETAS DE COLORES */
+/* CSS HEX
+--dark-purple: #231123ff;
+--forest-green-traditional: #293f14ff;
+--ebony: #60674dff;
+--middle-grey: #968e85ff;
+--pale-spring-bud: #ebf8b8ff;
+--yellow-crayola: #ffe787ff;
+
+CSS HSL
+--dark-purple: hsla(300, 35%, 10%, 1);
+--forest-green-traditional: hsla(91, 52%, 16%, 1);
+--ebony: hsla(76, 14%, 35%, 1);
+--middle-grey: hsla(32, 7%, 55%, 1);
+--pale-spring-bud: hsla(72, 82%, 85%, 1);
+--yellow-crayola: hsla(48, 100%, 76%, 1);
+
+SCSS HEX
+$dark-purple: #231123ff;
+$forest-green-traditional: #293f14ff;
+$ebony: #60674dff;
+$middle-grey: #968e85ff;
+$pale-spring-bud: #ebf8b8ff;
+$yellow-crayola: #ffe787ff;
+
+SCSS HSL 
+$dark-purple: hsla(300, 35%, 10%, 1);
+$forest-green-traditional: hsla(91, 52%, 16%, 1);
+$ebony: hsla(76, 14%, 35%, 1);
+$middle-grey: hsla(32, 7%, 55%, 1);
+$pale-spring-bud: hsla(72, 82%, 85%, 1);
+$yellow-crayola: hsla(48, 100%, 76%, 1);
+
+SCSS RGB
+$dark-purple: rgba(35, 17, 35, 1);
+$forest-green-traditional: rgba(41, 63, 20, 1);
+$ebony: rgba(96, 103, 77, 1);
+$middle-grey: rgba(150, 142, 133, 1);
+$pale-spring-bud: rgba(235, 248, 184, 1);
+$yellow-crayola: rgba(255, 231, 135, 1);
+
+CSS Gradient
+$gradient-top: linear-gradient(0deg, #231123ff, #293f14ff, #60674dff, #968e85ff, #ebf8b8ff, #ffe787ff);
+$gradient-right: linear-gradient(90deg, #231123ff, #293f14ff, #60674dff, #968e85ff, #ebf8b8ff, #ffe787ff);
+$gradient-bottom: linear-gradient(180deg, #231123ff, #293f14ff, #60674dff, #968e85ff, #ebf8b8ff, #ffe787ff);
+$gradient-left: linear-gradient(270deg, #231123ff, #293f14ff, #60674dff, #968e85ff, #ebf8b8ff, #ffe787ff);
+$gradient-top-right: linear-gradient(45deg, #231123ff, #293f14ff, #60674dff, #968e85ff, #ebf8b8ff, #ffe787ff);
+$gradient-bottom-right: linear-gradient(135deg, #231123ff, #293f14ff, #60674dff, #968e85ff, #ebf8b8ff, #ffe787ff);
+$gradient-top-left: linear-gradient(225deg, #231123ff, #293f14ff, #60674dff, #968e85ff, #ebf8b8ff, #ffe787ff);
+$gradient-bottom-left: linear-gradient(315deg, #231123ff, #293f14ff, #60674dff, #968e85ff, #ebf8b8ff, #ffe787ff);
+$gradient-radial: radial-gradient(#231123ff, #293f14ff, #60674dff, #968e85ff, #ebf8b8ff, #ffe787ff); */
+
+

@@ -12,17 +12,17 @@
   <header></header>
   <main>
     <h1>Escríbenos</h1>
-      <form action="mailto:###" method="post" enctype="text/plain">  <!-- hay que agregarle un mail -->
+      <form action="mailto:###" method="post" enctype="text/plain">  <!-- hay que agregarle un api externo mail -->
         <label for="name">Nombre: </label>
-        <input type="text" id:"name" name="name" placeholder="Ingresa tu nombre..." required>
+        <input type="text" id="name" name="completename" placeholder="Ingresa tu nombre...">
         <br>
         <br>
         <label for="surname">Apellido: </label>
-        <input type="text" id:"surname" name="surname" placeholder="Ingresa tu apellido..." required>
+        <input type="text" id="surname" name="completename" placeholder="Ingresa tu apellido...">
         <br>
         <br>
         <label for="age">Seleccione su rango de edad: </label>
-        <select name="age" id="age_range" required>
+        <select name="age" id="age_range">
             <option disabled selected value> -- Selecciona una opción -- </option>
             <option value=1>18 a 30</option>
             <option value=2>31 a 40</option>
