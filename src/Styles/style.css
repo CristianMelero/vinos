@@ -18,6 +18,14 @@ header {
     background-color: #60674dff;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 1rem;
+    background-color: #60674dff;
+}
+
 .header-logo {
     border: 2px blue solid;
     grid-column-start: 1;
@@ -48,17 +56,21 @@ header {
     display: inline;
 }
 
+
 .container {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 2rem;
 }
 
-.header-container {
+.row{
     display: flex;
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
+    margin-left: 30%;
+}
+
+h2{
+    font-size: 29px;
 }
 
 /* PALETAS DE COLORES */
