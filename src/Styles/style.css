@@ -22,7 +22,6 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 1rem;
     background-color: #60674dff;
 }
 
@@ -66,7 +65,11 @@ footer{
 
 .row{
     display: flex;
-    margin-left: 30%;
+    align-self: center;
+}
+
+.row div {
+    margin: 10px;
 }
 
 h2{
