@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Vino 1",
+        "precio": 700,
+        "sourceURL": "./images/Felipe-Rutini-1999.webp",
+        "stock": 5,
+        "cantidad": 1
+    },
+    {
+        "nombre": "Vino 2",
+        "precio": 300,
+        "sourceURL": "./images/Felipe-Rutini-1999.webp",
+        "stock": 5,
+        "cantidad": 1
+    },
+    {
+        "nombre": "Vino 3",
+        "precio": 300,
+        "sourceURL": "./images/Felipe-Rutini-1999.webp",
+        "stock": 5,
+        "cantidad": 1
+    },
+    {
+        "nombre": "Vino 4",
+        "precio": 400,
+        "sourceURL": "./images/Felipe-Rutini-1999.webp",
+        "stock": 5,
+        "cantidad": 1
+    },
+    {
+        "nombre": "Vino 5",
+        "precio": 1500,
+        "sourceURL": "./images/Felipe-Rutini-1999.webp",
+        "stock": 5,
+        "cantidad": 1
+    }
+]
