@@ -18,13 +18,6 @@ header {
     background-color: #60674dff;
 }
 
-footer{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    background-color: #60674dff;
-}
-
 .header-logo {
     border: 2px blue solid;
     grid-column-start: 1;
@@ -55,6 +48,8 @@ footer{
     display: inline;
 }
 
+/*Aqui el css del store*/
+
 .store {
     padding: 5rem 10%;
     display: grid;
@@ -84,11 +79,24 @@ footer{
     padding: 0.5rem;
 }
 
+/*Hasta aqui*/
+/*Aqui el css de quienes somos*/
+
 .container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 2rem;
+}
+
+/*Hasta aqui*/
+/*Aqui el css del footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #60674dff;
 }
 
 .row{
@@ -105,6 +113,9 @@ footer{
 h2{
     font-size: 29px;
 }
+
+/*Hasta aqui*/
+
 
 /* PALETAS DE COLORES */
 /* CSS HEX
