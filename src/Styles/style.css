@@ -17,6 +17,7 @@ html {
 header {
     min-height: 100px;
     background-color:#231123ff;
+    min-width: 380px;
 
 }
 
@@ -38,12 +39,13 @@ header {
 .header-navbar{
     clear: both;
     padding: 5px 0px;
+    background-color: #968e85ff;
 }
 
 .header-navbar ul{
     list-style: none;
     text-align: center;
-    filter: invert(100%);
+
 }
 
 .header-navbar li{
