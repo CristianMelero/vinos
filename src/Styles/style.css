@@ -68,6 +68,10 @@ header {
     align-items: center;
 }
 
+:hover.storeItem{
+    transform: scale(1.25,1.25);
+}
+
 .image{
     width: 100%;
 }
