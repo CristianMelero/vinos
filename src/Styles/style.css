@@ -18,6 +18,7 @@ header {
     min-height: 100px;
     background-color:#231123ff;
     min-width: 380px;
+    user-select: none;
 
 }
 
@@ -112,6 +113,7 @@ footer{
     flex-direction: column;
     flex-wrap: nowrap;
     background-color: #60674dff;
+    user-select: none
 }
 
 .row{
