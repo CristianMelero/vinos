@@ -46,5 +46,5 @@ const paintData = (data) => {
 };
 
 const buyButton = () => {
-    alert("Gracias por la compra pa")
+    alert("Gracias por la compra")
 }
