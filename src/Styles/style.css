@@ -42,13 +42,14 @@ header {
     filter: invert(100%);
 } 
 
-.header-navbar{
+header nav{
     clear: both;
     background-color: #968e85ff;
+    padding: 5px;
 
 }
 
-.header-navbar ul{
+header ul{
     list-style: none;
     text-align: center;
     display: flex;
@@ -59,12 +60,16 @@ header {
 
 }
 
-.header-navbar li{
+header ul li, header ul a{
     font-weight: 700;
     font-size: 1.5rem;
     display: inline;
     font-family:'Times New Roman', Times, serif;
+    color: black;
+}
 
+header a:hover{
+    color: #ebf8b8ff;
 }
 
 #menu, #menu-check{
@@ -72,6 +77,7 @@ header {
 }
 
 @media only screen and (max-width: 700px){
+    /* MENU HAMBURGUESA */
     .header-logo{
         display: none;
     }
@@ -126,16 +132,17 @@ header {
 
     header nav {
         position: absolute;
+        box-sizing: border-box;
         top: 0;
         right: 0;
         height: 100%;
+        width: 100%;
         background-color: #968e85ff;
         padding-top: 3rem;
         padding-right: 4rem;
         opacity: 0.8;
         color: white;
-        width: 100%;
-
+        
     }
 
     header nav ul a {
@@ -155,6 +162,13 @@ header {
     }
 
 
+
+    main {
+        text-align: center;
+    }
+    
+
+    /* HASTA AQUI MENU HAMBURGUESA */
 
 }
 
@@ -215,7 +229,7 @@ header {
 /*Aqui el css del store*/
 
 .store {
-    padding: 5rem 10%;
+    padding: 2rem 10%;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(260px, 1fr));
     gap: 2rem;
@@ -230,10 +244,13 @@ header {
     border: 1px solid black;
     padding: 10px;
     align-items: center;
+
 }
 
 :hover.storeItem{
-    transform: scale(1.25,1.25);
+    transform: scale(1.05,1.05);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
 }
 
 .image{

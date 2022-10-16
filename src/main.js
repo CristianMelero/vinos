@@ -62,7 +62,7 @@ document.getElementById("idheader").innerHTML = `
 <input type="checkbox" id="menu-check">
 <label id="menu" for="menu-check">
   <span id="menu-open">&#9776;</span>
-  <span id="menu-close">X</span>
+  <span id="menu-close">&#11198;</span>
 </label>
 <nav class="header-navbar">
   <ul>
