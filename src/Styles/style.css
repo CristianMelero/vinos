@@ -19,7 +19,6 @@ html {
 body {
     display: flex;
     flex-direction: column;
-
 }
 /*Header*/
 
@@ -268,7 +267,15 @@ header a:hover{
     padding: 0.5rem;
 }
 
-/*Hasta aqui*/
+/*Hasta aqui el store*/
+/*Aqui el css del formulario*/
+
+.form-container{
+    width: 70%;
+    margin: 3rem;
+}
+
+/*Hasta aqui, esta hecho con bootstrap*/
 /*Aqui el css de quienes somos*/
 
 .container div {
@@ -365,7 +372,7 @@ header a:hover{
 
 }
 
-/*Hasta aqui*/
+/*Hasta aqui el css de quienes somos*/
 /*Aqui el css del footer*/
 
 footer{
@@ -377,11 +384,12 @@ footer{
     user-select: none
 }
 
-.row{
+.footer-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 1rem;
     align-self: center;
+    margin: 10px;
 }
 
 .row div {

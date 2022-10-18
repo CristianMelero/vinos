@@ -48,6 +48,12 @@ const paintData = (data) => {
 const buyButton = () => {
     alert("Gracias por la compra")
 }
+//-------------FORM----------------//
+const email = getElementById("inputEmail")
+const name = getElementById("inputName")
+const age = getElementById("inputAge")
+const comment = getElementById("inputComment")
+
 
 //-------------HEADER--------------//
 document.getElementById("idheader").innerHTML = `
@@ -76,7 +82,7 @@ document.getElementById("idheader").innerHTML = `
 `
 //-------------FOOTER--------------//
 document.getElementById("idfooter").innerHTML = `
-<div class="row">
+<div class="footer-container">
 <div class="footer-text"> <h2>Contactanos |</h2> </div>
 <div>
   <a href="index.html">
