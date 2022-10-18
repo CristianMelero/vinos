@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Monsieur+La+Doulaise&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -42,14 +44,14 @@ header {
     filter: invert(100%);
 } 
 
-header nav{
+header nav {
     clear: both;
     background-color: #968e85ff;
     padding: 5px;
 
 }
 
-header ul{
+header ul {
     list-style: none;
     text-align: center;
     display: flex;
@@ -78,11 +80,11 @@ header a:hover{
 
 @media only screen and (max-width: 700px){
     /* MENU HAMBURGUESA */
-    .header-logo{
+    .header-logo {
         display: none;
     }
 
-    .header-title{
+    .header-title {
         text-align: justify;
         float: none;
         text-align: center;
@@ -109,7 +111,7 @@ header a:hover{
         padding-left: 0.2em;
         padding-right: 0.2em;
         padding-bottom: 0.1em;
-        z-index: 1;
+        z-index: 9999;
 
     }
 
@@ -174,6 +176,8 @@ header a:hover{
 
 
 /*Hasta aquí el header*/
+
+
 
 /*Cards de las catas*/
 .catas {
@@ -267,11 +271,98 @@ header a:hover{
 /*Hasta aqui*/
 /*Aqui el css de quienes somos*/
 
-.container {
+.container div {
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.container .info1 img {
+    max-width: 100%;
+    border: 3px solid rgba(0, 0, 0, 0.65);
+    position: relative;
+
+
+}
+
+#image-sn {
+    min-width: 30px;
+    width: 40%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+
+}
+
+#text {
+    padding-left: 20px;
+
+}
+
+.container h1 {
+    font-size: 5vh;
+    position: relative;
+    padding: 2rem;
+    font-family: 'Chango', cursive;
+    
+}
+
+#info {
+    font-size: 3vh;
+    position: relative;
+    text-align: center;
+    padding-top: 3rem;
+    font-family: 'Chango', cursive;
+
+}
+
+.container div::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.25);
+    
+}
+
+.info1 {
+    background-image: url(/src/Images/info1.jpg);
+    display: inline-flex;
+
+}
+
+.info2 {
+    background-image: url(/src/Images/info2.jpg);
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 2rem;
+    align-items: center;
+
+}
+
+.info3 {
+    background-image: url(/src/Images/info3.jpg);
+    display: flex;
+    align-items: center;
+
+}
+
+.info4 {
+    background-image: url(/src/Images/info4.jpg);
+    display: flex;
+    align-items: center;
+
+}
+
+.info5 {
+    background-image: url(/src/Images/info5.jpg);
+    display: flex;
+    align-items: center;
+
 }
 
 /*Hasta aqui*/
