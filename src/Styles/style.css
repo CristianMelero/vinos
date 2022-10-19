@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     border: none;
+
 }
 
 a:link, a:visited, a:active {
@@ -22,7 +23,7 @@ body {
 }
 /*Header*/
 
-header {
+#idheader {
     background-color:#231123ff;
     user-select: none;
 
@@ -33,6 +34,7 @@ header {
     padding: 10px 20px;
     filter: invert(100%);
     margin-right: 80px;
+    line-height: normal;
 }
 
 .header-title {
@@ -41,27 +43,32 @@ header {
     font-size: 6rem;
     font-family: 'Monsieur La Doulaise', cursive;
     filter: invert(100%);
+    line-height: normal;
 } 
 
-header nav {
+header nav.header-navbar {
     clear: both;
     background-color: #968e85ff;
     padding: 5px;
+    line-height: normal;
+    box-sizing: content-box;
 
 }
 
-header ul {
+header ul#list-header {
     list-style: none;
     text-align: center;
     display: flex;
     place-content: space-between;
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: content-box;
+
 
 }
 
-header ul li, header ul a{
+header ul#listheader li, header ul#list-header a{
     font-weight: 700;
     font-size: 1.5rem;
     display: inline;
@@ -131,7 +138,7 @@ header a:hover{
             display: block;
         }
 
-    header nav {
+    header nav.header-navbar {
         position: absolute;
         box-sizing: border-box;
         top: 0;
@@ -146,19 +153,17 @@ header a:hover{
         
     }
 
-    header nav ul a {
+    header nav ul#list-header a {
         color: white;
         background: none;
 
     }
     
-    .header-navbar ul, .header-navbar li {
+    .header-navbar ul#list-header, .header-navbar li {
         display: block;
         text-align: right;
-        margin-top: 1.5rem;
+        margin: 1.5rem 0 0 0 0;
         width: 100%;
-        margin-left: 0;
-        margin-right: 0;
 
     }
 
@@ -311,7 +316,7 @@ header a:hover{
 }
 
 .container h1 {
-    font-size: 5vh;
+    font-size: 3vw;
     position: relative;
     padding: 2rem;
     font-family: 'Chango', cursive;
@@ -319,7 +324,7 @@ header a:hover{
 }
 
 #info {
-    font-size: 3vh;
+    font-size: 2vw;
     position: relative;
     text-align: center;
     padding-top: 3rem;
@@ -375,7 +380,7 @@ header a:hover{
 /*Hasta aqui el css de quienes somos*/
 /*Aqui el css del footer*/
 
-footer{
+#idfooter {
     margin-top: auto;
     display: flex;
     flex-direction: column;
@@ -384,7 +389,7 @@ footer{
     user-select: none
 }
 
-.footer-container{
+.footer-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -392,12 +397,15 @@ footer{
     margin: 10px;
 }
 
-.row div {
-    margin: 10px;
-}
 
-.footer-text{
-    font-size: 1.2rem;
+.footer-text, footer h2{
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    color: #212529;
 }
 
 /*Hasta aqui*/

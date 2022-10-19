@@ -6,7 +6,7 @@ document.getElementById("idheader").innerHTML = `
   </a>
 </div>
 <div class="header-title">
-  <p>GG Wines</p>
+  GG Wines
 </div>
 <input type="checkbox" id="menu-check">
 <label id="menu" for="menu-check">
@@ -14,7 +14,7 @@ document.getElementById("idheader").innerHTML = `
   <span id="menu-close">&#11198;</span>
 </label>
 <nav class="header-navbar">
-  <ul>
+  <ul id="list-header">
     <li><a href="index.html">Inicio</a></li>
     <li><a href="quienesSomos.html">Sobre nosotros</a></li>
     <li><a href="catas.html">Catas</a></li>
