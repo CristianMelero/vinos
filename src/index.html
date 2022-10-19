@@ -10,13 +10,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header id="idheader"></header>
 
-    <main>
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="./Images/slider1.jpg" alt="copa de vino" class="slider__img">
+                <div class="text animate__animated animate__fadeInDown">
+                    <p>Sabores que cobran</p>
+                    <p>vida en el paladar</p>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="./Images/slider2.jpg" alt="cata vino" class="slider__img">
+                <div class="texto">
+                    <p>Vení a disfrutar de una cata </p>
+                    <p>y degustación de vinos</p>
+                    <a href="contacto.html" class="button"> RESERVÁ TU LUGAR </a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="./Images/slider3.png" alt="compra online" class="slider__img">
+                <div class="texto">
+                    <p>COMPRÁ ONLINE </p>
+                    <p>sin moverte de tu casa</p>
+                    <a href="tienda.html" class="button"> IR A LA TIENDA</a>
+                 </div>
+           </div>
+     </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left"id="btn-left">&#60;</div>
+    </div>
+    <script src="src/main.js"></script>
 
+    <main>
     </main>
 
     <footer id="idfooter"></footer>
