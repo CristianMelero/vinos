@@ -20,35 +20,43 @@
   
   <main>
     <div class="form-container">
-      <h1>Escríbenos:</h1>
-      <br>
-      <form class="row g-3 border" id="form">
-        <div class="col-md-6">
-          <label for="inputName" class="form-label">Nombre Y Apellido:</label>
-          <input type="name" class="form-control" id="inputName" placeholder="Escriba su Nombre completo...">
+        <div class="formItself">
+
+          <label class="form-text-header">Dejanos tu comentario:</label>
+          <form class="row" id="form">
+            <div class="col-md-6">
+              <p class="form-text">nombre:</p>
+              <input type="name" class="form-control" id="inputName" placeholder="Escriba su Nombre completo...">
+            </div>
+            
+            <div class="col-md-5">
+              <p class="form-text">email:</p>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Escriba su Email..." name="">
+            </div>
+            
+            <div class="col-md-5">
+              <p class="form-text">edad:</p>
+              <select id="inputAge" class="form-select">
+                <option selected>Elige un rango de edad</option>
+                <option>Entre 18 y 21</option>
+                <option>Entre 21 y 31</option>
+                <option>Entre 31 y 41</option>
+                <option>Mayor de 41</option>
+              </select>
+            </div>
+            
+            <div class="col-md-11">
+              <p class="form-text">Dejanos tu comentario:</p>
+              <textarea id="inputComment" class="form-control"></textarea>
+            </div>
+            
+            <div class="m-3">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+            
+          </form>
         </div>
-        <div class="col-md-6">
-          <label for="inputEmail" class="form-label">Email:</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Escriba su Email..." name="">
-        </div>
-        <div class="col-md-5">
-          <label for="inputAge" class="form-label">Edad</label>
-          <select id="inputAge" class="form-select">
-            <option selected>Elige un rango de edad</option>
-            <option>Entre 18 y 21</option>
-            <option>Entre 21 y 31</option>
-            <option>Entre 31 y 41</option>
-            <option>Mayor de 41</option>
-          </select>
-        </div>
-        <div class="col-md-8">
-          <label for="inputComent" class="form-label">Comentario: </label>
-          <textarea id="inputComment" class="form-control"></textarea>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
-      </form>
+
     </div>
   </main>
   
