@@ -287,6 +287,7 @@ header a:hover{
     display: block;
     font-size: 2em;
     font-family: 'chango';
+    text-shadow: 0 0 3px black;
     margin-bottom: 0.67em;
     margin-left: 0;
     margin-right: 0;
