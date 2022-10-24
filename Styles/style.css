@@ -276,7 +276,7 @@ header a:hover{
 /*Aqui el css del formulario*/
 
 .form-container{
-    background-image: url(/src/Images/info2.jpg);
+    background-image: url(Images/info2.jpg);
 }
 
 .formItself{
@@ -367,34 +367,34 @@ header a:hover{
 }
 
 .info1 {
-    background-image: url(/src/Images/info1.jpg);
+    background-image: url(/Images/info1.jpg);
     display: inline-flex;
 
 }
 
 .info2 {
-    background-image: url(/src/Images/info2.jpg);
+    background-image: url(/Images/info2.jpg);
     display: flex;
     align-items: center;
 
 }
 
 .info3 {
-    background-image: url(/src/Images/info3.jpg);
+    background-image: url(/Images/info3.jpg);
     display: flex;
     align-items: center;
 
 }
 
 .info4 {
-    background-image: url(/src/Images/info4.jpg);
+    background-image: url(/Images/info4.jpg);
     display: flex;
     align-items: center;
 
 }
 
 .info5 {
-    background-image: url(/src/Images/info5.jpg);
+    background-image: url(/Images/info5.jpg);
     display: flex;
     align-items: center;
 
