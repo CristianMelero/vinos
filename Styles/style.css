@@ -511,7 +511,7 @@ body{
 }
 
 .slider__btn:hover{
- /* ojo que esta vacio esto */
+    filter: invert(100%);
 }
 
 .slider__btn--left{
