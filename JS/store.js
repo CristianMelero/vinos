@@ -25,9 +25,9 @@ const paintData = (data) => {
         const img = document.createElement("img");
         img.className = "image"
         img.setAttribute("src", producto.sourceURL);
-        const title = document.createElement("h3");
+        const title = document.createElement("h4");
         title.innerHTML = producto.nombre;
-        const price = document.createElement("h4");
+        const price = document.createElement("h5");
         price.innerHTML = "Precio: " + producto.precio;
         const button = document.createElement("button");
         button.addEventListener("click", ()=>{
