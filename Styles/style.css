@@ -276,7 +276,7 @@ header a:hover{
 /*Aqui el css del formulario*/
 
 .form-container{
-    background-image: url(Images/info2.jpg);
+    background-image: url(/Images/info2.jpg);
 }
 
 .formItself{
