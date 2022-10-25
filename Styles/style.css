@@ -400,6 +400,27 @@ header a:hover{
 
 }
 
+@media only screen and (max-width: 700px){
+    .container h1 {
+        font-size: 7vh;
+        position: relative;
+        padding: 2rem;
+        font-family: 'Chango', cursive;
+        
+    }
+    
+    #info {
+        font-size: 4vh;
+        position: relative;
+        text-align: center;
+        padding-top: 3rem;
+        font-family: 'Chango', cursive;
+    
+    }
+
+
+}
+
 /*Hasta aqui el css de quienes somos*/
 /*Aqui el css del footer*/
 
@@ -436,11 +457,11 @@ header a:hover{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     .container-slider{
     display:none;
     }
-    }
+    } */
 
 body{
     display: flex;
@@ -485,7 +506,6 @@ body{
     font-weight: bold;
     font-family: monospace;
     text-align: center;
-
     border-radius: 50%;
     cursor: pointer;
 }
