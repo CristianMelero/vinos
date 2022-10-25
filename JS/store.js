@@ -46,5 +46,21 @@ const paintData = (data) => {
 };
 
 const buyButton = () => {
-    alert("Gracias por la compra")
+    success();
 }
+
+function success () {
+    Swal.fire(
+        'Gracias!',
+        'Se agrego al carrito correctamente, aunque por ahora no hay',
+        'success'
+    )
+};
+
+function error () {
+    Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: `Actualmente no contamos con carrito de compras...`,
+    })
+};
