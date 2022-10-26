@@ -189,12 +189,6 @@ header a:hover{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 700px) {
-    .container-slider{
-    display:none;
-    }
-    }
-
 body{
     display: flex;
     min-height: 100vh;
@@ -258,7 +252,7 @@ body{
     font-style: italic;
     font-weight: bolder;
     color: black;
-    font-size: 23px;
+    font-size: calc(1.15em + 1vw);
     padding: 20px 100px;
     position: absolute;
     bottom: 30px;
@@ -270,7 +264,7 @@ body{
     font-style: italic;
     font-weight: bolder;
     color: black;
-    font-size: 23px;
+    font-size: calc(1em + 1vw);
     padding: 22px 60px;
     position: absolute;
     bottom: 30px;
