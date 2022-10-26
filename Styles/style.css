@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chango&family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Open+Sans&family=Roboto:ital,wght@1,900&display=swap');
 
 * {
     padding: 0;
@@ -64,17 +64,17 @@ header ul#list-header {
     margin: 0 auto;
     padding: 0;
     box-sizing: content-box;
-
-
+    
 }
 
 header ul#listheader li, header ul#list-header a{
     font-weight: 700;
     font-size: 1.5rem;
     display: inline;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     color: black;
 }
+
 
 header a:hover{
     color: #ebf8b8ff;
@@ -182,292 +182,18 @@ header a:hover{
 /*Hasta aquí el header*/
 
 
-
-/*Cards de las catas*/
-.catas {
-    width: 100%;
-    min-height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    padding-top: 50px;
-}
-
-.catas .card {
-    width: 330px;
-    height: 430px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    overflow: hidden;
-    text-align: center;
-    transition: all 0.25s;
-
-}
-
-.catas .card:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-
-}
-
-.catas .card img{
-    width: 330px;
-    height: 220px;
-}
-
-.catas .card h4{
-    font-weight: 600;
-    font-size: 25px;
-}
-
-.catas .card p{
-    padding: 0.1rem;
-    font-size: 1rem;
-    font-weight: 300;
-
-}
-
-.catas .card a{
-    font-weight: 500;
-    color: #60674dff;
-}
-
-/*Aqui el css del store*/
-
-.store {
-    padding: 2rem 10%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(260px, 1fr));
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    font-size: 80%;
-
-}
-
-.storeItem {
-    background-color: white;
-    width: 200px;
-    height: 300px;
-    border: 1px solid black;
-    padding: 10px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
-}
-
-:hover.storeItem{
-    transform: scale(1.05,1.05);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-
-}
-
-.image{
-    width: 100%;
-
-}
-
-.btn {
-    background-color: tomato;
-    color: white;
-    font-size: 1rem;
-    padding: 0.5rem;
-
-}
-
-/*Hasta aqui el store*/
-/*Aqui el css del formulario*/
-
-.form-container{
-    background-image: url(/Images/info2.jpg);
-}
-
-.formItself{
-    padding: 4rem;
-}
-
-.form-text-header{
-    display: block;
-    font-size: 2em;
-    font-family: 'chango';
-    text-shadow: 0 0 3px black;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    color: white !important;
-}
-
-.form-text{
-    color: white !important;
-    font-size: 1.5vw !important;
-    text-shadow: 0 0 3px black;
-    position: relative;
-    padding-top: 2rem;
-    font-family: 'Chango';
-}
-
-/*Hasta aqui, esta hecho con bootstrap*/
-/*Aqui el css de quienes somos*/
-
-.container div {
-    height:100vh;
-    width: 100%;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-
-}
-
-.container .info1 img {
-    max-width: 100%;
-    border: 3px solid rgba(0, 0, 0, 0.65);
-    position: relative;
-
-}
-
-#image-sn {
-    min-width: 30px;
-    width: 40%;
-    padding-top: 2rem;
-    padding-left: 2rem;
-
-}
-
-#text {
-    padding-left: 20px;
-
-}
-
-.container h1 {
-    font-size: 3vw;
-    position: relative;
-    padding: 2rem;
-    font-family: 'Chango', cursive;
-    
-}
-
-#info {
-    font-size: 2vw;
-    position: relative;
-    text-align: center;
-    padding-top: 3rem;
-    font-family: 'Chango', cursive;
-
-}
-
-.container div::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(255,255,255,0.25);
-    
-}
-
-.info1 {
-    background-image: url(/Images/info1.jpg);
-    display: inline-flex;
-
-}
-
-.info2 {
-    background-image: url(/Images/info2.jpg);
-    display: flex;
-    align-items: center;
-
-}
-
-.info3 {
-    background-image: url(/Images/info3.jpg);
-    display: flex;
-    align-items: center;
-
-}
-
-.info4 {
-    background-image: url(/Images/info4.jpg);
-    display: flex;
-    align-items: center;
-
-}
-
-.info5 {
-    background-image: url(/Images/info5.jpg);
-    display: flex;
-    align-items: center;
-
-}
-
-@media only screen and (max-width: 700px){
-    .container h1 {
-        font-size: 7vh;
-        position: relative;
-        padding: 2rem;
-        font-family: 'Chango', cursive;
-        
-    }
-    
-    #info {
-        font-size: 4vh;
-        position: relative;
-        text-align: center;
-        padding-top: 3rem;
-        font-family: 'Chango', cursive;
-    
-    }
-
-
-}
-
-/*Hasta aqui el css de quienes somos*/
-/*Aqui el css del footer*/
-
-#idfooter {
-    margin-top: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    background-color: #60674dff;
-    user-select: none
-}
-
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    align-self: center;
-    margin: 10px;
-    align-items: center;
-}
-
-
-.footer-text, footer h2{
-    font-size: 2rem;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 900;
-    margin-top: 0;
-    color: #212529;
-}
-
+/* Aqui el inicio */
 /*Aqui el css del slider*/
 
 *{
     box-sizing: border-box;
 }
 
-/* @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .container-slider{
     display:none;
     }
-    } */
+    }
 
 body{
     display: flex;
@@ -558,7 +284,318 @@ body{
     text-decoration:underline;
     color: black;
 }
+
 /*Hasta aqui*/
+
+/* Ahora CSS de info inicio */
+
+div.catas-inicio {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(150, 142, 133, 0.3);
+
+}
+
+#cata-titulo-inicio {
+    font-size: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p.inicio {
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p.inicio span {
+    font-weight: 900;
+    
+}
+
+
+/*Cards de las catas*/
+.catas {
+    width: 100%;
+    min-height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    background-color: rgba(150, 142, 133, 0.3);
+}
+
+.catas .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: whitesmoke;
+
+}
+
+.catas .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.catas .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.catas .card h4{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.catas .card p{
+    padding: 0.1rem;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.catas .card a{
+    font-weight: 500;
+    color: #60674dff;
+}
+
+/*Aqui el css del store*/
+
+.store {
+    padding: 2rem 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(260px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.storeItem {
+    background-color: white;
+    width: 200px;
+    height: 330px;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+:hover.storeItem{
+    transform: scale(1.05,1.05);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.image{
+    width: 100%;
+
+}
+
+.btn {
+    background-color: tomato;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem;
+    vertical-align: bottom;
+
+}
+
+/*Hasta aqui el store*/
+/*Aqui el css del formulario*/
+
+.form-container{
+    background-image: url(/Images/info2.jpg);
+}
+
+.formItself{
+    padding: 4rem;
+}
+
+.form-text-header{
+    display: block;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 3px black;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: white !important;
+}
+
+.form-text{
+    color: white !important;
+    font-size: 1.5vw !important;
+    text-shadow: 0 0 3px black;
+    position: relative;
+    padding-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Hasta aqui, esta hecho con bootstrap*/
+/*Aqui el css de quienes somos*/
+
+.container div {
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.container .info1 img {
+    max-width: 100%;
+    border: 3px solid rgba(0, 0, 0, 0.65);
+    position: relative;
+
+}
+
+#image-sn {
+    min-width: 30px;
+    width: 40%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+
+}
+
+#text {
+    padding-left: 20px;
+
+}
+
+.container h1 {
+    font-size: 5vw;
+    font-weight: 900;
+    position: relative;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+#info {
+    font-size: 3vw;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    padding-top: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container div::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.25);
+    
+}
+
+.info1 {
+    background-image: url(/Images/info1.jpg);
+    display: inline-flex;
+
+}
+
+.info2 {
+    background-image: url(/Images/info2.jpg);
+    display: flex;
+    align-items: center;
+
+}
+
+.info3 {
+    background-image: url(/Images/info3.jpg);
+    display: flex;
+    align-items: center;
+
+}
+
+.info4 {
+    background-image: url(/Images/info4.jpg);
+    display: flex;
+    align-items: center;
+
+}
+
+.info5 {
+    background-image: url(/Images/info5.jpg);
+    display: flex;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 700px){
+    .container h1 {
+        font-size: 7vh;
+        position: relative;
+        padding: 2rem;
+        font-family: 'Chango', cursive;
+        
+    }
+    
+    #info {
+        font-size: 4vh;
+        position: relative;
+        text-align: center;
+        padding-top: 3rem;
+        font-family: 'Open Sans', sans-serif;    
+    }
+
+
+}
+
+/*Hasta aqui el css de quienes somos*/
+/*Aqui el css del footer*/
+
+#idfooter {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #60674dff;
+    user-select: none
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-self: center;
+    margin: 10px;
+    align-items: center;
+}
+
+
+.footer-text, footer h2{
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    margin-top: 0;
+    color: #212529;
+}
+
+
 
 /*Hasta aqui*/
 
